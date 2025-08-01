@@ -8,8 +8,7 @@ Key findings include:
 	The most popular car specifications among buyers
 	Regional variations in sales performance
 	Price points with the best conversion rates*/
-    
-use bmw_car_sales; 
+     
 -- Project Setup
 
 -- Creating Database and Importing data
