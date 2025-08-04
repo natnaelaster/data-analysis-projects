@@ -217,7 +217,7 @@ Key findings include:
     group by price_range
     order by price_range;
 
--- Average price difference between sold and unsold cars
+-- Average price difference between high and low cars
 -- 2
 	select 
 		Sales_Classification,
