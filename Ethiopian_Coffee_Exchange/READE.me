@@ -46,3 +46,21 @@ The dataset contains historical records of coffee trades, including details such
 
 
 
+#### Document Limitations
+
+- **Data Quality Issues:** Some years, such as 2012, contain anomalies or missing values (e.g., extremely low closing prices), which may affect the accuracy of trend analysis.
+- **Incomplete Data:** Not all columns may have complete records for every year, and some relevant variables (such as export destinations or weather conditions) are not included.
+- **Aggregation Bias:** Grouping by year, month, or warehouse may mask important short-term fluctuations or outlier events.
+- **Assumptions in Data Cleaning:** Decisions made during data cleaning (e.g., dropping nulls, converting data types) may influence results and introduce bias.
+- **Limited External Factors:** The analysis does not account for external influences such as international market prices, policy changes, or macroeconomic events.
+
+---
+
+#### Actionable Recommendations
+
+- **Improve Data Collection:** Enhance data quality by ensuring accurate and complete records for all variables and years, and regularly audit for anomalies.
+- **Monitor Key Warehouses:** Focus on high-performing warehouses (e.g., ME, D2, Gt) for best pricing strategies and investigate practices in low-performing warehouses for improvement.
+- **Seasonal Planning:** Leverage the observed seasonal price trends by timing sales and inventory management to maximize returns during peak months.
+- **Diversify Analysis:** Incorporate additional variables (such as weather, export data, or global coffee prices) for a more comprehensive market understanding.
+- **Continuous Review:** Regularly update the analysis with new data and refine models to adapt to changing market conditions and improve
+
